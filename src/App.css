@@ -1,0 +1,45 @@
+/* .App {
+  text-align: center;
+} */
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin: 0px;
+  padding: 10px;
+}
+/* let layout in form display in flex */
+form {
+  display: flex; 
+  padding: 0px;
+}
+
+.inputBox {
+  flex: 10;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background: #555555;
+  flex: 1;
+  border: none;
+  font-weight: bolder;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.Container {
+  padding: 0px 300px;
+}
+
+header {
+  text-align: center;
+  background: black;
+  color: white;
+  padding-bottom: 6px;
+}
+
+.linkStyle {
+  color: white;
+}
